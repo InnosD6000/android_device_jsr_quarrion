@@ -28,3 +28,6 @@ TARGET_RIL_VARIANT := caf
 
 # Malloc
 MALLOC_IMPL := dlmalloc
+
+# Build
+USE_CLANG_PLATFORM_BUILD := true
