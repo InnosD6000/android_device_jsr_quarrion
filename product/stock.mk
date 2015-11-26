@@ -39,10 +39,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     mmp.enable.3g2=true \
     media.aac_51_output_enabled=true
 
-# Codecs:(PARSER_)AAC AC3 AMR_NB AMR_WB ASF AVI DTS FLV 3GP 3G2 MKV MP2PS MP2TS MP3 OGG QCP WAV FLAC DIVX DIVXHD
-PRODUCT_PROPERTY_OVERRIDES += \
-    mm.enable.qcom_parser=3407871
-
 # System property for cabl
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.qualcomm.cabl=0
