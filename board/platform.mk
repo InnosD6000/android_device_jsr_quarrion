@@ -26,8 +26,5 @@ BOARD_USES_QC_TIME_SERVICES := true
 TARGET_POWERHAL_VARIANT := qcom
 TARGET_RIL_VARIANT := caf
 
-# Malloc
-MALLOC_IMPL := dlmalloc
-
-# Build
-USE_CLANG_PLATFORM_BUILD := true
+#Malloc
+MALLOC_SVELTE := true
