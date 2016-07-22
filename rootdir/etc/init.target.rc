@@ -45,3 +45,7 @@ on charger
     chmod 0664 /sys/class/power_supply/bms/voltage_ocv
     start vm_bms
     load_all_props
+
+on property:sys.boot_completed=1
+    # Temp hack to fix torch not being registered on boot
+    restart media
