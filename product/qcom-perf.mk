@@ -12,8 +12,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.min_freq_0=960000 \
     ro.min_freq_4=800000 \
     ro.am.reschedule_service=true \
-    ro.config.max_starting_bg=8 \
-    ro.sys.fw.use_trim_settings=true
+    ro.config.max_starting_bg=8
 
 # I/O scheduler
 PRODUCT_PROPERTY_OVERRIDES += \
