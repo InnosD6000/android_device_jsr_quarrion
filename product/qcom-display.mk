@@ -9,7 +9,8 @@ PRODUCT_PACKAGES += \
     gralloc.msm8916 \
     hwcomposer.msm8916 \
     libtinyxml \
-    memtrack.msm8916
+    memtrack.msm8916 \
+    libjni_livedisplay
 
 # Permissions
 PRODUCT_COPY_FILES += \
