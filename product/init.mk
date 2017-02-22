@@ -4,6 +4,7 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     init.qcom.rc \
     init.qcom.power.rc \
+    init.qcom.ssr.rc \
     init.recovery.qcom.rc \
     init.qcom.ssr.rc \
     ueventd.qcom.rc
