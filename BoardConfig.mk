@@ -15,9 +15,9 @@
 
 include device/cyanogen/msm8916-common/BoardConfigCommon.mk
 
-include device/wileyfox/kipper/board/*.mk
+include device/innos/quarrion/board/*.mk
 
-TARGET_BOARD_INFO_FILE := device/wileyfox/kipper/board-info.txt
+TARGET_BOARD_INFO_FILE := device/innos/quarrion/board-info.txt
 
 # inherit from the proprietary version
--include vendor/wileyfox/kipper/BoardConfigVendor.mk
+-include vendor/innos/quarrion/BoardConfigVendor.mk

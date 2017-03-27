@@ -18,12 +18,12 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from kipper device
-$(call inherit-product, device/wileyfox/kipper/device.mk)
+# Inherit from quarrion device
+$(call inherit-product, device/innos/quarrion/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := kipper
-PRODUCT_NAME := full_kipper
-PRODUCT_BRAND := Wileyfox
-PRODUCT_MODEL := KIPPER
-PRODUCT_MANUFACTURER := Wileyfox
+PRODUCT_DEVICE := quarrion
+PRODUCT_NAME := full_quarrion
+PRODUCT_BRAND := Innos
+PRODUCT_MODEL := Innos D6000
+PRODUCT_MANUFACTURER := Innos

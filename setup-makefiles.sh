@@ -18,8 +18,8 @@
 set -e
 
 # Required!
-DEVICE=kipper
-VENDOR=wileyfox
+DEVICE=quarrion
+VENDOR=innos
 
 # Load extractutils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
