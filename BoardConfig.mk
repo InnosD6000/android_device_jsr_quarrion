@@ -17,7 +17,5 @@ include device/cyanogen/msm8916-common/BoardConfigCommon.mk
 
 include device/innos/quarrion/board/*.mk
 
-TARGET_BOARD_INFO_FILE := device/innos/quarrion/board-info.txt
-
 # inherit from the proprietary version
 -include vendor/innos/quarrion/BoardConfigVendor.mk
