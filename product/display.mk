@@ -2,10 +2,6 @@
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
-# Panel
-PRODUCT_PACKAGES += \
-    pp_calib_data_goworld_1080p_video_mode_dsi_panel.xml
-
 # Screen density
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=480 \
