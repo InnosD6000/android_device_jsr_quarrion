@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/innos/quarrion/full_quarrion.mk)
+$(call inherit-product, device/jsr/quarrion/full_quarrion.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
@@ -21,15 +21,15 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 TARGET_BOARD_PLATFORM_VARIANT := msm8939
 
 PRODUCT_NAME := lineage_quarrion
-BOARD_VENDOR := Innos
+BOARD_VENDOR := jsr
 PRODUCT_DEVICE := quarrion
 
-PRODUCT_GMS_CLIENTID_BASE := android-innos
+PRODUCT_GMS_CLIENTID_BASE := android-jsr
 
 PRODUCT_MANUFACTURER := JSR
 PRODUCT_MODEL := Innos D6000
 
 PRODUCT_BRAND := Innos
-TARGET_VENDOR := innos
+TARGET_VENDOR := jsr
 TARGET_VENDOR_PRODUCT_NAME := quarrion
 TARGET_VENDOR_DEVICE_NAME := quarrion

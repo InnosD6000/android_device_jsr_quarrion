@@ -15,7 +15,7 @@
 
 include device/cyanogen/msm8916-common/BoardConfigCommon.mk
 
-include device/innos/quarrion/board/*.mk
+include device/jsr/quarrion/board/*.mk
 
 # inherit from the proprietary version
--include vendor/innos/quarrion/BoardConfigVendor.mk
+-include vendor/jsr/quarrion/BoardConfigVendor.mk

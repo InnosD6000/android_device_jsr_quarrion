@@ -1,2 +1,2 @@
 # Recovery
-TARGET_RECOVERY_FSTAB := device/innos/quarrion/rootdir/etc/fstab.qcom
+TARGET_RECOVERY_FSTAB := device/jsr/quarrion/rootdir/etc/fstab.qcom

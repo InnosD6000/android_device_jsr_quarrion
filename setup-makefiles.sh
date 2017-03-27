@@ -19,7 +19,7 @@ set -e
 
 # Required!
 DEVICE=quarrion
-VENDOR=innos
+VENDOR=jsr
 
 # Load extractutils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"

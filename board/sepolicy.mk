@@ -1,3 +1,3 @@
 # SELinux
 BOARD_SEPOLICY_DIRS += \
-    device/innos/quarrion/sepolicy
+    device/jsr/quarrion/sepolicy
