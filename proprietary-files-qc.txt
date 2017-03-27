@@ -643,6 +643,11 @@ vendor/lib64/libril-qcril-hook-oem.so
 vendor/lib64/libsystem_health_mon.so
 vendor/lib64/libxml.so
 
+# Sensors
+vendor/lib64/libcalmodule_common.so
+vendor/lib64/libcalmodule_gyroscope.so
+vendor/lib64/libcalmodule_memsic_d6000.so
+
 # Serial
 -bin/cktnvtool
 
