@@ -114,6 +114,15 @@ vendor/lib/libmmqjpeg_codec.so
 vendor/lib/liboemcamera.so
 vendor/lib/libqomx_jpegenc.so
 
+# Camera (64bit)
+vendor/lib64/libmmcamera_imx214.so
+vendor/lib64/libmmcamera_ov16825.so
+vendor/lib64/libmmcamera_ov5648_q5v22e.so
+vendor/lib64/libmmcamera_ov7695.so
+vendor/lib64/libmmcamera_ov8858_q8v19w_30.so
+vendor/lib64/libmmcamera_ov8858_q8v19w.so
+vendor/lib64/libmmcamera_ov8858.so
+
 # Camera autofocus
 vendor/lib/libactuator_a3907_camcorder.so
 vendor/lib/libactuator_a3907_camera.so
@@ -409,6 +418,51 @@ vendor/lib/libchromatix_skuf_ov5648_p5v23c_common.so
 vendor/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so
 vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so
 vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so
+
+# Camera chromatix (64bit)
+vendor/lib64/libchromatix_imx135_liveshot.so
+vendor/lib64/libchromatix_imx214_common.so
+vendor/lib64/libchromatix_imx214_default_video.so
+vendor/lib64/libchromatix_imx214_hfr_120fps.so
+vendor/lib64/libchromatix_imx214_hfr_60fps.so
+vendor/lib64/libchromatix_imx214_hfr_90fps.so
+vendor/lib64/libchromatix_imx214_liveshot.so
+vendor/lib64/libchromatix_imx214_preview.so
+vendor/lib64/libchromatix_imx214_snapshot_hdr.so
+vendor/lib64/libchromatix_imx214_snapshot.so
+vendor/lib64/libchromatix_imx214_video_1080p.so
+vendor/lib64/libchromatix_imx214_video_hdr.so
+vendor/lib64/libchromatix_ov13850_default_video.so
+vendor/lib64/libchromatix_ov13850_q13v06k_default_video.so
+vendor/lib64/libchromatix_ov16825_common.so
+vendor/lib64/libchromatix_ov16825_default_video.so
+vendor/lib64/libchromatix_ov16825_hfr_120.so
+vendor/lib64/libchromatix_ov16825_hfr_60.so
+vendor/lib64/libchromatix_ov16825_preview.so
+vendor/lib64/libchromatix_ov16825_snapshot.so
+vendor/lib64/libchromatix_ov8858_common.so
+vendor/lib64/libchromatix_ov8858_default_video.so
+vendor/lib64/libchromatix_ov8858_hfr_120fps.so
+vendor/lib64/libchromatix_ov8858_hfr_60fps.so
+vendor/lib64/libchromatix_ov8858_hfr_90fps.so
+vendor/lib64/libchromatix_ov8858_liveshot.so
+vendor/lib64/libchromatix_ov8858_preview.so
+vendor/lib64/libchromatix_ov8858_q8v19w_common.so
+vendor/lib64/libchromatix_ov8858_q8v19w_default_video.so
+vendor/lib64/libchromatix_ov8858_q8v19w_hfr_120fps.so
+vendor/lib64/libchromatix_ov8858_q8v19w_hfr_60fps.so
+vendor/lib64/libchromatix_ov8858_q8v19w_hfr_90fps.so
+vendor/lib64/libchromatix_ov8858_q8v19w_liveshot.so
+vendor/lib64/libchromatix_ov8858_q8v19w_preview.so
+vendor/lib64/libchromatix_ov8858_q8v19w_snapshot.so
+vendor/lib64/libchromatix_ov8858_q8v19w_video_nonHD.so
+vendor/lib64/libchromatix_ov8858_q8v19w_zsl_30.so
+vendor/lib64/libchromatix_ov8858_q8v19w_zsl.so
+vendor/lib64/libchromatix_ov8858_snapshot.so
+vendor/lib64/libchromatix_s5k3m2xm_common.so
+vendor/lib64/libchromatix_s5k3m2xm_default_video.so
+vendor/lib64/libchromatix_s5k3m2xm_liveshot.so
+vendor/lib64/libchromatix_s5k3m2xm_preview.so
 
 # Camera firmware
 etc/firmware/cpp_firmware_v1_1_1.fw
