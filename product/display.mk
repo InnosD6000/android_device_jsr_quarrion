@@ -8,7 +8,8 @@ PRODUCT_PACKAGES += \
 
 # Screen density
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=480
+    ro.sf.lcd_density=480 \
+    qemu.hw.mainkeys=0
 
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
