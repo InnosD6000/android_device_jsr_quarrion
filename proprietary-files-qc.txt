@@ -28,7 +28,12 @@ vendor/lib64/libbtnv.so
 
 # Camera
 bin/mm-qcamera-daemon
+bin/mm-qcamera-app
+lib/libimscamera_jni.so
+lib64/libimscamera_jni.so
 lib/hw/camera.msm8916.so
+vendor/lib/lib-imscamera.so
+vendor/lib64/lib-imscamera.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegehw.so
 vendor/lib/libmmcamera2_c2d_module.so
