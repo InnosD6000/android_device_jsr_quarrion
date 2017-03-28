@@ -730,6 +730,6 @@ vendor/lib64/libTimeService.so
 vendor/lib/libTimeService.so
 
 # WiFi
-lib/modules/pronto_wlan.ko
+lib/modules/pronto/pronto_wlan.ko
 -lib64/libwpa_qmi_eap_proxy.so
 lib64/libwcnss_qmi.so
