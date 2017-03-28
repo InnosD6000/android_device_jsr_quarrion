@@ -51,7 +51,7 @@
       <value>400000</value> <!-- 400 MHz CPU speed -->
   </array>
   <!-- Current when CPU is idle -->
-  <item name="cpu.idle">1.71</item>
+  <item name="cpu.idle">1.6</item>
   <!-- Current at each CPU speed, as per 'cpu.speeds' -->
   <array name="cpu.active">
       <value>0.1</value>  <!-- ~100mA -->
