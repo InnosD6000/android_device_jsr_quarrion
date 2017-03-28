@@ -701,6 +701,8 @@ vendor/lib64/libxml.so
 # Sensors
 lib/hw/sensors.msm8916.so
 lib64/hw/sensors.msm8916.so
+vendor/lib/libcalmodule_common.so
+vendor/lib/libcalmodule_gyroscope.so
 vendor/lib64/libcalmodule_common.so
 vendor/lib64/libcalmodule_gyroscope.so
 vendor/lib64/libcalmodule_memsic_d6000.so
