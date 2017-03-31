@@ -708,13 +708,19 @@ vendor/lib64/libsystem_health_mon.so
 vendor/lib64/libxml.so
 
 # Sensors
+etc/sensors/hals.conf
+lib/sensors.native.so
+lib64/sensors.native.so
 lib/hw/sensors.msm8916.so
 lib64/hw/sensors.msm8916.so
+vendor/lib/sensor_calibrate.so
+vendor/lib64/sensor_calibrate.so
 vendor/lib/libcalmodule_common.so
 vendor/lib/libcalmodule_gyroscope.so
 vendor/lib64/libcalmodule_common.so
 vendor/lib64/libcalmodule_gyroscope.so
 vendor/lib64/libcalmodule_memsic_d6000.so
+vendor/etc/calmodule.cfg
 
 # Serial
 -bin/cktnvtool
