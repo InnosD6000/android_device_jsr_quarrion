@@ -625,6 +625,10 @@ vendor/lib/libscale.so
 etc/firmware/a420_pfp.fw
 etc/firmware/a420_pm4.fw
 
+# Lights
+lib/hw/lights.msm8916.so
+lib64/hw/lights.msm8916.so
+
 # Media
 vendor/lib/libI420colorconvert.so
 vendor/lib/libmm-color-convertor.so
