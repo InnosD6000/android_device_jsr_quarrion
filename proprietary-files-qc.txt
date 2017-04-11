@@ -729,6 +729,9 @@ vendor/etc/calmodule.cfg
 # Serial
 -bin/cktnvtool
 
+# Charger
+bin/vm_bms
+
 # Thermal
 vendor/bin/thermal-engine
 vendor/lib64/libthermalclient.so
