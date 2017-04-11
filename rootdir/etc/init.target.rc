@@ -35,6 +35,12 @@ on boot
     chown system system /sys/class/leds/green/led_time
     chown system system /sys/class/leds/blue/led_time
 
+service qcom-post-boot /system/bin/sh /system/etc/init.qcom.post_boot.sh
+    class late_start
+    user root
+    disabled
+    oneshot
+
 	# Charger param-s from stock ramdisk
 on charger
     wait /dev/block/bootdevice/by-name/system
