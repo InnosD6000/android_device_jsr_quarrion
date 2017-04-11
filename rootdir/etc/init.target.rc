@@ -45,7 +45,6 @@ on charger
     chmod 0664 /sys/class/power_supply/bms/voltage_ocv
     start vm_bms
     load_all_props
-    start qcom-post-boot
 
 service cktnv /system/bin/cktnvtool
     user root
