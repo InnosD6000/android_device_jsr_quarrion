@@ -35,3 +35,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.default_network=9,9 \
     ro.ril.fast.dormancy.rule=0 \
     ro.ril.hsxpa=0
+
+# Data properties
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.com.android.mobiledata=false
