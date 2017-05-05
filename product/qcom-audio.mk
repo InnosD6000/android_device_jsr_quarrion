@@ -24,6 +24,16 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/sound_trigger_mixer_paths.xml:system/etc/sound_trigger_mixer_paths.xml \
     $(LOCAL_PATH)/audio/sound_trigger_platform_info.xml:system/etc/sound_trigger_platform_info.xml
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/audio/audio_effects.conf:system/vendor/etc/audio_effects.conf
+
+PRODUCT_PACKAGES += \
+    audiod \
+    audio.primary.msm8916 \
+    libqcompostprocbundle \
+    libqcomvisualizer \
+    libqcomvoiceprocessing
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:system/etc/permissions/android.hardware.audio.low_latency.xml
@@ -33,4 +43,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.qc.sdk.audio.fluencetype=fluence \
     persist.audio.fluence.voicecall=true \
     persist.audio.fluence.voicerec=false \
-    persist.audio.fluence.speaker=false
+    persist.audio.fluence.speaker=false \
+    av.streaming.offload.enable=true \
+    audio.deep_buffer.media=true \
+    audio.offload.buffer.size.kb=64 \
+    audio.offload.gapless.enabled=true \
+    audio.offload.min.duration.secs=30 \
+    audio.offload.pcm.16bit.enable=false \
+    audio.offload.pcm.24bit.enable=true \
+    audio.offload.video=true \
+    use.voice.path.for.pcm.voip=true
