@@ -33,6 +33,7 @@ Work:
 - ALS/PS sensors
 - Autorotation
 - Other..
+
 Not work:
 - Internal battery
 - Camera
