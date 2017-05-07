@@ -30,6 +30,11 @@ vendor/lib64/libbtnv.so
 # Camera
 bin/mm-qcamera-daemon
 bin/mm-qcamera-app
+bin/mm-qjpeg-dec-test
+bin/mm-qjpeg-enc-test
+bin/mm-qomx-idec-test
+bin/mm-qomx-ienc-test
+bin/mm-vidc-omx-test
 lib/libimscamera_jni.so
 lib64/libimscamera_jni.so
 lib/hw/camera.msm8916.so
