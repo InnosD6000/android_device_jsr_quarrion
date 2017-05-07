@@ -11,7 +11,7 @@ ENABLE_CPUSETS := true
 # Use prebuilt kernel for now
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 BOARD_CUSTOM_BOOTIMG_MK := device/jsr/quarrion/mkbootimg.mk
-TARGET_PREBUILT_KERNEL := device/jsr/quarrion/zImage
+TARGET_PREBUILT_KERNEL := device/jsr/quarrion/prebuilt/zImage
 
 # Don't require dt.img for prebuilt kernel
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
