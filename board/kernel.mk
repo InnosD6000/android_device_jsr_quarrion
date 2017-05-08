@@ -14,6 +14,6 @@ BOARD_CUSTOM_BOOTIMG_MK := device/jsr/quarrion/mkbootimg.mk
 TARGET_PREBUILT_KERNEL := device/jsr/quarrion/prebuilt/zImage
 
 # Don't require dt.img for prebuilt kernel
-BOARD_KERNEL_IMAGE_NAME := zImage-dtb
+BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_SEPARATED_DT := false
 TARGET_KERNEL_APPEND_DTB := true
