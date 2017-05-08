@@ -48,6 +48,8 @@ While this all works on stock kernel.
 ```
 #
 # Copyright (C) 2016 The LineageOS
+# Copyright (C) 2017 The SmartRomTeam
+# Copyright (C) 2017 lolmaxlik <lolmaxlik24@gmail.com>
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
