@@ -12,20 +12,22 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/jsr/quarrion/full_quarrion.mk)
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
+# Inherit from quarrion device
+$(call inherit-product, device/jsr/quarrion/device.mk)
+
 PRODUCT_NAME := lineage_quarrion
 BOARD_VENDOR := jsr
 PRODUCT_DEVICE := quarrion
-
 PRODUCT_GMS_CLIENTID_BASE := android-jsr
-
 PRODUCT_MANUFACTURER := JSR
 PRODUCT_MODEL := Innos D6000
-
 PRODUCT_BRAND := Innos
 TARGET_VENDOR := jsr
 TARGET_VENDOR_PRODUCT_NAME := quarrion
