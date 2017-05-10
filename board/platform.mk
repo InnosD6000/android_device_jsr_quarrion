@@ -16,9 +16,9 @@ TARGET_2ND_CPU_VARIANT := cortex-a53
 TARGET_USES_64_BIT_BINDER := true
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_msm8916
+TARGET_INIT_VENDOR_LIB := libinit_quarrion
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
-TARGET_RECOVERY_DEVICE_MODULES := libinit_msm8916
+TARGET_RECOVERY_DEVICE_MODULES := libinit_quarrion
 
 # Qualcomm support
 BOARD_USES_QCOM_HARDWARE := true
