@@ -18,53 +18,59 @@
  * limitations under the License.
  */
 
+#include <errno.h>
+#include <fcntl.h>
 #include <healthd.h>
+#include <stdio.h>
+#include <unistd.h>
+
+// from BatteryManager.java
+#define BATTERY_STATUS_UNKNOWN 1
+#define BATTERY_STATUS_CHARGING 2
+#define BATTERY_STATUS_DISCHARGING 3
+#define BATTERY_STATUS_NOT_CHARGING 4
+#define BATTERY_STATUS_FULL 5
 
 void
 healthd_board_init(struct healthd_config *config)
 {
-    config->batteryCapacityPath    = "/sys/class/power_supply/battery/capacity";
-    config->batteryStatusPath      = "/sys/class/power_supply/battery/status";
-    config->batteryVoltagePath     = "/sys/class/power_supply/battery/voltage_now";
-    config->batteryCurrentNowPath  = "/sys/class/power_supply/battery/batt_current_now";
-    config->batteryPresentPath     = "/sys/class/power_supply/battery/present";
-    config->batteryHealthPath      = "/sys/class/power_supply/battery/health";
-    config->batteryTemperaturePath = "/sys/class/power_supply/battery/temp";
-    config->batteryTechnologyPath  = "/sys/class/power_supply/battery/technology";
+    config->batteryStatusPath            = "/sys/class/power_supply/battery/status";
+    config->batteryHealthPath            = "/sys/class/power_supply/battery/health";
+    config->batteryPresentPath           = "/sys/class/power_supply/battery/present";
+    config->batteryCapacityPath          = "/sys/class/power_supply/battery/capacity";
+    config->batteryVoltagePath           = "/sys/class/power_supply/battery/voltage_now";
+    config->batteryTemperaturePath       = "/sys/class/power_supply/battery/temp";
+    config->batteryTechnologyPath        = "/sys/class/power_supply/battery/technology";
+    config->batteryCurrentNowPath        = "/sys/class/power_supply/battery/current_now";
 
-    // For batteryjsr
-    config->batteryjsrCapacityPath    = "/sys/class/power_supply/batteryjsr/capacity";
-    config->batteryjsrStatusPath      = "/sys/class/power_supply/batteryjsr/status";
-    config->batteryjsrVoltagePath     = "/sys/class/power_supply/batteryjsr/voltage_now";
-    config->batteryjsrCurrentNowPath  = "/sys/class/power_supply/batteryjsr/batt_current_now";
-    config->batteryjsrPresentPath     = "/sys/class/power_supply/batteryjsr/present";
-    config->batteryjsrHealthPath      = "/sys/class/power_supply/batteryjsr/health";
-    config->batteryjsrTemperaturePath = "/sys/class/power_supply/batteryjsr/temp";
-    config->batteryjsrTechnologyPath  = "/sys/class/power_supply/batteryjsr/technology";
+    config->dockBatterySupported         = true;
+    config->dockBatteryStatusPath        = "/sys/class/power_supply/batteryjsr/status";
+    config->dockBatteryPresentPath       = "/sys/class/power_supply/batteryjsr/present";
+    config->dockBatteryCapacityPath      = "/sys/class/power_supply/batteryjsr/capacity";
+    config->dockBatteryVoltagePath       = "/sys/class/power_supply/batteryjsr/voltage_now";
+    config->dockBatteryTemperaturePath   = "/sys/class/power_supply/batteryjsr/temp";
+    config->dockBatteryCurrentNowPath    = "/sys/class/power_supply/batteryjsr/current_now";
+    config->dockBatteryCurrentAvgPath    = "/sys/class/power_supply/batteryjsr/current_avg";
 }
 
-int healthd_board_battery_update(struct android::BatteryProperties*)
+int
+healthd_board_battery_update(struct android::BatteryProperties *props)
 {
+    // To follow the AOSP battery contract, the board only should report itself
+    // as pluggable when is charging or full charging
+    if (props->batteryStatus != BATTERY_STATUS_CHARGING &&
+        props->batteryStatus != BATTERY_STATUS_FULL) {
+
+        props->chargerAcOnline = false;
+        props->chargerUsbOnline = false;
+        props->chargerWirelessOnline = false;
+    }
+    if (props->dockBatteryStatus != BATTERY_STATUS_CHARGING &&
+        props->dockBatteryStatus != BATTERY_STATUS_FULL) {
+
+        props->chargerDockAcOnline = false;
+    }
+
     // return 0 to log periodic polled battery status to kernel log
-    return 1;
-}
-
-void healthd_board_mode_charger_draw_battery(struct android::BatteryProperties*)
-{
-
-}
-
-void healthd_board_mode_charger_battery_update(struct android::BatteryProperties*)
-{
-
-}
-
-void healthd_board_mode_charger_set_backlight(bool)
-{
-
-}
-
-void healthd_board_mode_charger_init()
-{
-
+    return 0;
 }

@@ -5,10 +5,9 @@
 # Copyright 2017 Ilya Lebedev <lolmaxlik24@gmail.com>
 
 LOCAL_PATH := $(call my-dir)
-
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES := healthd_board_quarrion.cpp
-LOCAL_MODULE := libhealthd.quarrion
 LOCAL_C_INCLUDES := system/core/healthd
-LOCAL_CFLAGS := -Werror
+LOCAL_STATIC_LIBRARIES := libutils
+LOCAL_MODULE := libhealthd.quarrion
 include $(BUILD_STATIC_LIBRARY)
