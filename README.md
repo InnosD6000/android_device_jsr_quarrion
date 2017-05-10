@@ -35,9 +35,10 @@ Work:
 - Other..
 
 Not work:
-- Internal battery
 - Camera
 
+Bad work:
+- Batteries. Need widget for correct battery percentage display. WorkInProgress.
 ### Project Description
 I am the developer of the unofficial software for this device. 
 Now it's not an easy task for me: We need to implement the correct operation of two batteries. 
