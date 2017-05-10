@@ -46,12 +46,6 @@ on charger
     start vm_bms
     load_all_props
 
-service cktnv /system/bin/cktnvtool
-    user root
-    group root
-    class late_start
-    oneshot
-
 #start camera server as daemon
 service qcamerasvr /system/bin/mm-qcamera-daemon
     class late_start

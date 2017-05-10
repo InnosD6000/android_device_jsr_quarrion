@@ -759,9 +759,6 @@ vendor/lib64/lib-imss.so
 vendor/lib64/lib-imsvt.so
 vendor/lib64/lib-imsxml.so
 
-# Serial
--bin/cktnvtool
-
 # Charger
 bin/vm_bms
 
