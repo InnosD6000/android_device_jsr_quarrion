@@ -1,5 +1,5 @@
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/jsr/msm8916
+TARGET_KERNEL_SOURCE := kernel/jsr/quarrion
 TARGET_KERNEL_CONFIG := lineageos_quarrion_defconfig
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_CMDLINE := console=none androidboot.hardware=qcom ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1
