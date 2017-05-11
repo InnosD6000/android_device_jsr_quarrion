@@ -27,7 +27,6 @@ Work:
 - Touchscreen
 - Display
 - Sound
-- External battery work perfectly
 - WiFi
 - Mobile Data(Calls,Mobile internet connection)
 - ALS/PS sensors
