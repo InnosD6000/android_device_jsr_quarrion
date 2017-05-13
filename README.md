@@ -36,8 +36,11 @@ Work:
 Not work:
 - Camera
 
-Bad work:
-- Batteries. Need widget for correct battery percentage display. WorkInProgress.
+Thanks to:
+- @olegsvs - For custom notification battery app
+- My testers - For test this shit
+
+Soon.
 ### Project Description
 I am the developer of the unofficial software for this device. 
 Now it's not an easy task for me: We need to implement the correct operation of two batteries. 
