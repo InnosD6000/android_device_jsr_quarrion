@@ -11,3 +11,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Add for usbotg
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.isUsbOtgEnabled=true
+
+# Add for camera (add by hanjue)
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.camera.tintless=enable
