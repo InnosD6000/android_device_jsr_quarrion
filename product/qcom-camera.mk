@@ -1,5 +1,7 @@
 # Camera
 PRODUCT_PACKAGES += \
+    libboringssl-compat \
+    libstlport \
     Snap
 
 # Permissions
