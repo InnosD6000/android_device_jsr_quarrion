@@ -4,3 +4,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # BuildType
 CM_BUILDTYPE := SNAPSHOT
+
+# Restrict locales
+PRODUCT_LOCALES := en_US ru_RU
