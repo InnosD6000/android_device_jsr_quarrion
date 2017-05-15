@@ -35,3 +35,8 @@ TARGET_VENDOR_DEVICE_NAME := quarrion
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := innos_d6000,Innos_D6000,quarrion
+
+# Static fingerprint & description
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BUILD_FINGERPRINT=innos/D6000_Russia/D6000_Russia:6.0.1/MMB29M/12090102:user/release-keys \
+    PRIVATE_BUILD_DESC="D6000_Russia-user 6.0.1 MMB29M eng..20161209.005937 release-keys"
