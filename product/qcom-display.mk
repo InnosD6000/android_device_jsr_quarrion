@@ -22,7 +22,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.hwc.mdpcomp.enable=true \
     persist.hwc.ptor.enable=true \
     debug.enable.sglscale=1 \
-    ro.opengles.version=196609 \
+    ro.opengles.version=196608 \
     ro.sf.lcd_density=480 \
     qemu.hw.mainkeys=0
 
