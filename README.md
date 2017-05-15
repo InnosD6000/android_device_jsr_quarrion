@@ -35,6 +35,7 @@ Work:
 
 Not work:
 - Camera
+- WiFi Tethering
 
 Thanks to:
 - @olegsvs - For custom notification battery app
