@@ -8,8 +8,7 @@ PRODUCT_COPY_FILES += \
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.disableWifiApFirmwareReload=true \
-    wifi.interface=wlan0 \
-    wifi.tethering.interface=ap0
+    wifi.interface=wlan0
 
 # Wifi
 PRODUCT_PACKAGES += \
