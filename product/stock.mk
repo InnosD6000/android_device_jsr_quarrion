@@ -15,3 +15,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Add for camera (add by hanjue)
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.tintless=enable
+
+# Property to enable narrow search range for video encoding
+PRODUCT_PROPERTY_OVERRIDES += \
+    vidc.enc.narrow.searchrange=1
