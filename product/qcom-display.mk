@@ -24,9 +24,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.hwc.mdpcomp.enable=true \
     persist.hwc.ptor.enable=true \
     debug.enable.sglscale=1 \
-    ro.opengles.version=196608 \
+    ro.opengles.version=196610 \
     persist.hwc.mdpcomp.enable=1 \
     ro.sf.lcd_density=420
+
 
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
