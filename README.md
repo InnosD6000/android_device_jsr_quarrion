@@ -31,10 +31,10 @@ Work:
 - Mobile Data(Calls,Mobile internet connection)
 - ALS/PS sensors
 - Autorotation
+- Camera
 - Other..
 
 Not work:
-- Camera
 - WiFi Tethering
 
 Thanks to:
