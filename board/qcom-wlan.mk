@@ -3,13 +3,8 @@ CONFIG_EAP_PROXY := qmi
 CONFIG_EAP_PROXY_DUAL_SIM := true
 
 # Use module because use stock kernel for now
-WIFI_DRIVER_MODULE_PATH := "/system/lib/modules/wlan.ko"
-WIFI_DRIVER_MODULE_NAME := "wlan"
-
-WLAN_MODULES:
-	mkdir -p $(KERNEL_MODULES_OUT)/pronto
-	mv $(KERNEL_MODULES_OUT)/wlan.ko $(KERNEL_MODULES_OUT)/pronto/pronto_wlan.ko
-	ln -sf /system/lib/modules/pronto/pronto_wlan.ko $(TARGET_OUT)/lib/modules/wlan.ko
+WIFI_DRIVER_MODULE_PATH := "/system/lib/modules/pronto/pronto_wlan.ko"
+WIFI_DRIVER_MODULE_NAME := "pronto_wlan"
 
 # From common
 BOARD_HAS_QCOM_WLAN := true
