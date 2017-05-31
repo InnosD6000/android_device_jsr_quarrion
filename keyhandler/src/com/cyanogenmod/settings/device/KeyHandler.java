@@ -139,7 +139,7 @@ public class KeyHandler implements DeviceKeyHandler {
 			hHandler.removeCallbacks(additionalLongPressTimeoutRunnable);
 			return true;
         }
-        if (scanCode == 250) {
+        if (scanCode == 249) {
 			if(down){
 				additioanalPressed = true;
 				hHandler.postDelayed(additionalLongPressTimeoutRunnable, 300);
