@@ -27,7 +27,6 @@ Work:
 - Touchscreen
 - Display
 - Sound
-- WiFi
 - Mobile Data(Calls,Mobile internet connection)
 - ALS/PS sensors
 - Autorotation
@@ -36,6 +35,7 @@ Work:
 
 Not work:
 - WiFi Tethering
+- WiFi work bad
 
 Thanks to:
 - @olegsvs - For custom notification battery app
