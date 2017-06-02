@@ -28,14 +28,15 @@ Work:
 - Display
 - Sound
 - Mobile Data(Calls,Mobile internet connection)
-- ALS/PS sensors
+- ALS sensor
 - Autorotation
 - Camera
+- WiFi
+- WiFi Tether
 - Other..
 
 Not work:
-- WiFi Tethering
-- WiFi work bad
+- Proximity sensor
 
 Thanks to:
 - @olegsvs - For custom notification battery app
