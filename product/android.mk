@@ -3,7 +3,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.product.first_api_level=21
 
 # BuildType
-CM_BUILDTYPE := RELEASE
+CM_BUILDTYPE := NIGHTLY
 
 # Restrict locales
 PRODUCT_LOCALES := en_US ru_RU
