@@ -1,4 +1,2 @@
 # Charger
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
-BOARD_HAL_STATIC_LIBRARIES := libhealthd.quarrion
-TARGET_HAS_DOCK_BATTERY := true
