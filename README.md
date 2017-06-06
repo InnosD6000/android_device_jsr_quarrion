@@ -19,7 +19,7 @@
 
 ## Device Picture
 
-![Innos D6000](https://s.4pda.to/Ystuk8ETSwpOz2DbFiGyGgGk0KKWVhMrZ3mwMQkyCWUgWFYMCcR.jpg "Innos D6000")
+![Innos D6000](https://i.imgur.com/CRfbmUh.jpg "Innos D6000")
 
 ## Bugs
 Work:
