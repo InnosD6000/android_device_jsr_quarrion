@@ -7,7 +7,7 @@
 | CPU                     | Quad-core 1.5 GHz ARM® Cortex™ A53|
 | Chipset                 | Qualcomm MSM8939 Snapdragon 615   |
 | GPU                     | Adreno 405                        |
-| Memory                  | 3 GB                              |
+| RAM                     | 3 GB                              |
 | Shipped Android Version | 5.1.1                             |
 | Storage                 | 32 GB                             |
 | MicroSD                 | Up to 128 GB                      |
