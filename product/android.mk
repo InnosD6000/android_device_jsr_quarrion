@@ -4,6 +4,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # BuildType
 CM_BUILDTYPE := NIGHTLY
-
-# Restrict locales
-PRODUCT_LOCALES := en_US ru_RU
