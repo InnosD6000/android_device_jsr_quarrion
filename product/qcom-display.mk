@@ -24,8 +24,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.hwc.ptor.enable=true \
     debug.enable.sglscale=1 \
     ro.opengles.version=196608 \
-    ro.sf.lcd_density=480 \
-    qemu.hw.mainkeys=0
+    ro.sf.lcd_density=480
 
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
