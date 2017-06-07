@@ -9,7 +9,10 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
+    libcalmodule_common \
     sensors.msm8916
+
+USE_SENSOR_MULTI_HAL := true
 
 # Config for MultiHAL
 PRODUCT_COPY_FILES += \
