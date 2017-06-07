@@ -4,3 +4,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # BuildType
 CM_BUILDTYPE := NIGHTLY
+
+# Statistics
+PRODUCT_PROPERTY_OVERRIDES += \
+  ro.romstats.name=LineageOS \
+  ro.romstats.version=13.0_quarrion \
+  ro.romstats.tframe=7 
+PRODUCT_PACKAGES += \
+	RomStats
