@@ -1,0 +1,43 @@
+Device Tree for Innos D6000 (quarrion)
+===========================================
+
+The Innos D6000 (codenamed _"quarrion"_) is a device with 2 batteries from JSR.
+It was released in October 2015.
+
+Basic   | Spec Sheet
+-------:|:-------------------------
+Chipset | Qualcomm MSM8939 Snapdragon 615
+GPU     | Adreno 405
+Memory  | 3 GB RAM
+Shipped Android Version | 5.1.1
+Storage | 32 GB
+MicroSD | Up to 128GB
+Battery | 6000 mAh(2 batteries)
+Display | 1920x1080 pixels, 5.2 inches
+Rear Camera  | 16 MP
+Front Camera | 5 MP
+
+Copyright (C) 2017 The LineageOS Project.
+
+![JSR D6000](https://i.imgur.com/CRfbmUh.jpg "Innos D6000")
+
+## Bugs
+Work:
+- Boot
+- Touchscreen
+- Display
+- Sound
+- Mobile Data(Calls,Mobile internet connection)
+- ALS sensor
+- Autorotation
+- Camera
+- WiFi
+- WiFi Tether
+- Other..
+
+Not work:
+- Proximity sensor
+
+Thanks to:
+- @olegsvs - For custom notification battery app
+- My testers - For test this shit
