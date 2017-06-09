@@ -34,6 +34,9 @@ TARGET_VENDOR := jsr
 TARGET_VENDOR_PRODUCT_NAME := quarrion
 TARGET_VENDOR_DEVICE_NAME := quarrion
 
+# WITH ROOT BY DEFAULT
+WITH_SU := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := innos_d6000,Innos_D6000,quarrion
 
