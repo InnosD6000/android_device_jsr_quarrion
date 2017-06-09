@@ -40,6 +40,10 @@ WITH_SU := true
 # Restrcit locales
 PRODUCT_LOCALES := ru_RU en_US uk_UA
 
+# Define build names
+KBUILD_BUILD_USER=lolmaxlik
+KBUILD_BUILD_HOST=SmartRomTeam
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := innos_d6000,Innos_D6000,quarrion
 
