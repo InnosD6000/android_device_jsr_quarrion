@@ -37,6 +37,9 @@ TARGET_VENDOR_DEVICE_NAME := quarrion
 # WITH ROOT BY DEFAULT
 WITH_SU := true
 
+# Restrcit locales
+PRODUCT_LOCALES := ru_RU en_US uk_UA
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := innos_d6000,Innos_D6000,quarrion
 
