@@ -13,4 +13,5 @@ PRODUCT_PACKAGES += \
 
 # Config for MultiHAL
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/calmodule.cfg:system/vendor/etc/calmodule.cfg \
     $(LOCAL_PATH)/configs/hals.conf:system/etc/sensors/hals.conf
