@@ -10,3 +10,7 @@ PRODUCT_COPY_FILES += \
 # Sensors
 PRODUCT_PACKAGES += \
     sensors.msm8916
+
+# Config for MultiHAL
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/hals.conf:system/etc/sensors/hals.conf
