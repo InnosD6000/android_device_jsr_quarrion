@@ -404,4 +404,7 @@
     <bool name="config_showNavigationBar">true</bool>
 
     <bool name="config_allowAllRotations">true</bool>
+
+    <!-- Enable blur support -->
+    <bool name="config_uiBlurEnabled">true</bool>
 </resources>
