@@ -61,8 +61,8 @@
     <ctl name="ADC1 Volume" value="6" />
     <ctl name="ADC2 Volume" value="6" />
     <ctl name="ADC3 Volume" value="6" />
-    <ctl name="DEC1 Volume" value="84" />
-    <ctl name="DEC2 Volume" value="84" />
+    <ctl name="DEC1 Volume" value="88" />
+    <ctl name="DEC2 Volume" value="88" />
     <ctl name="DEC2 MUX" value="ZERO" />
     <ctl name="DEC1 MUX" value="ZERO" />
     <ctl name="ADC2 MUX" value="ZERO" />
@@ -563,7 +563,7 @@
     <path name="handset">
         <ctl name="RX1 MIX1 INP1" value="RX1" />
         <ctl name="RDAC2 MUX" value="RX1" />
-        <ctl name="RX1 Digital Volume" value="89" />
+        <ctl name="RX1 Digital Volume" value="90" />
         <ctl name="EAR PA Gain" value="POS_6_DB" />
         <ctl name="EAR_S" value="Switch" />
     </path>
