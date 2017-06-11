@@ -37,6 +37,9 @@ TARGET_VENDOR_DEVICE_NAME := quarrion
 # WITH ROOT BY DEFAULT
 WITH_SU := true
 
+# Unofficial build ID
+TARGET_UNOFFICIAL_BUILD_ID := lolmaxlik
+
 # Restrcit locales
 PRODUCT_LOCALES := ru_RU en_US uk_UA
 

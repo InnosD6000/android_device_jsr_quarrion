@@ -2,9 +2,6 @@
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.product.first_api_level=21
 
-# BuildType
-CM_BUILDTYPE := NIGHTLY
-
 # Statistics
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.romstats.name=LineageOS \
