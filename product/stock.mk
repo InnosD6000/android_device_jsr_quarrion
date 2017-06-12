@@ -33,10 +33,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     mmp.enable.3g2=true \
     media.aac_51_output_enabled=true
 
-# System property for cabl
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.qualcomm.cabl=0
-
 # property to enable VDS WFD solution
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.hwc.enable_vds=1
