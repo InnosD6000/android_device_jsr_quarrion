@@ -7,13 +7,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.proximity.xml:system/etc/permissions/android.hardware.sensor.proximity.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml
 
-# Sensors
-PRODUCT_PACKAGES += \
-    libcalmodule_common \
-    sensors.msm8916
-
-USE_SENSOR_MULTI_HAL := true
-
 # Config for MultiHAL
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/calmodule.cfg:system/vendor/etc/calmodule.cfg \
