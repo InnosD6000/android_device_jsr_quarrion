@@ -61,7 +61,7 @@ public class Utilities {
 
 	public static String getStatsUrl() {
 		// String returnUrl = SystemProperties.get("ro.romstats.url");
-		String returnUrl = "http://lolmaxlik1337.cloudapp.net/";
+		String returnUrl = "http://lolmaxlik1337.cloudapp.net/stats/submit";
 
 		if (returnUrl.isEmpty()) {
 			return null;
