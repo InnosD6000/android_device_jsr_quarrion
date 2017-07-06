@@ -155,10 +155,10 @@ on post-fs-data
     
     # Sensor
     mkdir /persist/sensors 0770 system system
-    chown system system /sys/class/virtual-proximity/device/enable
-    chown system system /sys/class/virtual-proximity/device/power
-    chown system system /sys/class/virtual-proximity/device/vendor
-    chown system system /sys/class/virtual-proximity/device/proximity
+    chown system radio /sys/class/virtual-proximity/device/enable
+    chown system radio /sys/class/virtual-proximity/device/power
+    chown system radio /sys/class/virtual-proximity/device/vendor
+    chown system radio /sys/class/virtual-proximity/device/proximity
 
 on early-boot
     # set RLIMIT_MEMLOCK to 64MB
