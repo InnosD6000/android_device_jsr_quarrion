@@ -38,6 +38,15 @@ on boot
 on init
     export LD_SHIM_LIBS /system/vendor/lib/libmmqjpeg_codec.so|libboringssl-compat.so
 
+	# Sensors (some from idol3)
+    chown root system /sys/class/sensors/proximity/enable
+    chown root system /sys/class/sensors/proximity/calibrate
+    chown root system /sys/class/sensors/proximity/poll_delay
+
+    chown root system /sys/class/sensors/proximity/enable
+    chown root system /sys/class/sensors/proximity/calibrate
+    chown root system /sys/class/sensors/proximity/poll_delay
+
 	# Charger param-s from stock ramdisk
 on charger
     wait /dev/block/bootdevice/by-name/system
