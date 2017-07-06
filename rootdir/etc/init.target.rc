@@ -46,6 +46,20 @@ on init
     chown root system /sys/class/sensors/proximity/enable
     chown root system /sys/class/sensors/proximity/calibrate
     chown root system /sys/class/sensors/proximity/poll_delay
+    
+    # Add Proximity sensor system permissions. (some from idol3)
+    chown system system /sys/class/sensors/proximity/calibrate
+    chown system system /sys/class/sensors/proximity/enable
+    chown system system /sys/class/sensors/proximity/enable_wakeup
+    chown system system /sys/class/sensors/proximity/flush
+    chown system system /sys/class/sensors/proximity/max_latency
+    chown system system /sys/class/sensors/proximity/poll_delay
+    chmod 0660 /sys/class/sensors/proximity/calibrate
+    chmod 0660 /sys/class/sensors/proximity/enable
+    chmod 0660 /sys/class/sensors/proximity/enable_wakeup
+    chmod 0660 /sys/class/sensors/proximity/flush
+    chmod 0660 /sys/class/sensors/proximity/max_latency
+    chmod 0660 /sys/class/sensors/proximity/poll_delay
 
 	# Charger param-s from stock ramdisk
 on charger
